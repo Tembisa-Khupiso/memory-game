@@ -52,7 +52,7 @@ function memoryFlipTile(tile,val){
             	memory_tile_ids = [];
 				// Check to see if the whole board is cleared
 				if(tiles_flipped == memory_array.length){
-					alert("Board cleared... generating new board");
+					alert("____________________CONGRATULATIONS____________________ Board cleared... generating new board");
 					document.getElementById('memory_board').innerHTML = "";
 					newBoard();
 				}
